@@ -1,0 +1,3 @@
+[submodule "Pyslvs-PyQt5"]
+	path = Pyslvs-PyQt5
+	url = https://github.com/KmolYuan/Pyslvs-PyQt5
