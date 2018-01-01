@@ -14,8 +14,9 @@
 <v t="leo.20171226103610.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="leo.20171226112331.1"><vh>@button mingw32-make</vh></v>
-<v t="leo.20171226171936.1"><vh>Debug</vh>
+<v t="leo.20171226171936.1" a="E"><vh>Debug</vh>
 <v t="leo.20171226172138.1"><vh>check filesystem encoding</vh></v>
+<v t="leo.20180102011130.1"><vh>rename sh.exe</vh></v>
 </v>
 <v t="leo.20171230225441.1" a="E"><vh>github submodule</vh>
 <v t="leo.20171230225951.1"><vh>update submodule</vh></v>
@@ -26,6 +27,11 @@
 </v>
 <v t="leo.20171226113126.1" a="E"><vh>@path ./../Pyslvs-PyQt5</vh>
 <v t="leo.20171226113135.1"><vh>@edit Makefile</vh></v>
+<v t="leo.20180102010831.1" a="E"><vh>@path core/libs</vh>
+<v t="leo.20180102010847.1" a="E"><vh>@path pyslvs_algorithm</vh>
+<v t="leo.20180102010925.1"><vh>@edit Makefile</vh></v>
+</v>
+</v>
 </v>
 <v t="leo.20171226103559.1"><vh>importer script</vh></v>
 </vnodes>
@@ -169,5 +175,12 @@ execute mingw32-make button</t>
 <t tx="leo.20171230225718.1"></t>
 <t tx="leo.20171230225951.1">git submodule update --init --recursive</t>
 <t tx="leo.20171230230231.1">git clone --recursive &lt;project url&gt;</t>
+<t tx="leo.20180102010831.1"></t>
+<t tx="leo.20180102010847.1"></t>
+<t tx="leo.20180102011130.1">rename
+
+y:\git\bin\sh.exe
+
+to sh_yen_no.exe avoid execute shell commands</t>
 </tnodes>
 </leo_file>
