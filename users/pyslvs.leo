@@ -13,6 +13,7 @@
 <v t="leo.20171226103610.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20171226103610.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
+<v t="leo.20180114135113.1"><vh>distutils.cfg</vh></v>
 <v t="leo.20171226112331.1"><vh>@button mingw32-make</vh></v>
 <v t="leo.20171226171936.1" a="E"><vh>Debug</vh>
 <v t="leo.20171226172138.1"><vh>check filesystem encoding</vh></v>
@@ -182,5 +183,10 @@ execute mingw32-make button</t>
 y:\git\bin\sh.exe
 
 to sh_yen_no.exe avoid execute shell commands</t>
+<t tx="leo.20180114135113.1">Create file "C:\Python36\Lib\distutils\distutils.cfg" and write this inside :
+Code :
+
+[build]
+compiler = mingw32</t>
 </tnodes>
 </leo_file>
